@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "demoTest": "node demo.test.js",
+    "demoExternalTest": "node external.test.js"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.15.0",
+    "chromedriver": "^119.0.0"
+  }
+}
